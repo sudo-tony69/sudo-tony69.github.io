@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+/* todo: Make me more lightweight
 
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+*/
 #txtCustomCss, #txtLocalCustomCss {
 	height: 400px !important;
 	max-height: none !important;
