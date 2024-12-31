@@ -32,7 +32,7 @@ html {
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background: url(../../../img/dGBenC7.jpg) center top no-repeat #030322;
+	background: url(https://sudo-tony69.github.io/img/dGBenC7.jpg) center top no-repeat #030322;
 	background-size: cover;
 	opacity: 0;
 	z-index: -1;
@@ -46,7 +46,7 @@ html {
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background: url(../../../img/dGBenC7.jpg) center top no-repeat #030322;
+	background: url(https://sudo-tony69.github.io/img/dGBenC7.jpg) center top no-repeat #030322;
 	background-size: cover;
 	opacity: 0.925;
 	filter: brightness(90%);
@@ -66,7 +66,7 @@ html {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../../../img/dGBenC7.jpg) center top no-repeat #030322;
+	background: url(https://sudo-tony69.github.io/img/dGBenC7.jpg) center top no-repeat #030322;
 	background-size: cover;
 	opacity: 0.85;
 	z-index: -1;
@@ -85,7 +85,7 @@ html {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../../../img/dGBenC7.jpg) center top no-repeat #030322;
+	background: url(https://sudo-tony69.github.io/img/dGBenC7.jpg) center top no-repeat #030322;
 	background-size: cover;
 	opacity: 0.925;
 	z-index: -1;
@@ -360,7 +360,7 @@ progress::-webkit-progress-value {
 }
 
 #loginPage {
-	background: url(../../../img/3JRhFzi.jpg) !important; 
+	background: url(https://sudo-tony69.github.io/img/3JRhFzi.jpg) !important; 
 	background-size: cover !important;
 }
 
@@ -806,7 +806,7 @@ progress::-webkit-progress-value {
 	margin-bottom: 1.2em !important;
 }
 #loginPage {
-	background: url(../../../img/3JRhFzi.jpg) !important; 
+	background: url(https://sudo-tony69.github.io/img/3JRhFzi.jpg) !important; 
 	background-size: cover !important;
 }
 
@@ -1751,7 +1751,7 @@ progress::-webkit-progress-value {
 	width: 3.1em;
 }
 
-:root {--accent: 6, 161, 217;}
+:root {--accent: 29, 185, 84;}
 
 :root {--rounding: 12px;}
 
@@ -3070,7 +3070,7 @@ a[href*="imdb.com"]::before {
 	display: inline-block;
 	width: 50px;
 	height: 25px;
-	background-image: url('../../../img/pbNvPMX.png');
+	background-image: url('https://sudo-tony69.github.io/img/pbNvPMX.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
@@ -3086,7 +3086,7 @@ a[href*="trakt.tv"]::before {
 	display: inline-block;
 	width: 50px;
 	height: 25px;
-	background-image: url('../../../img/c1zc8d7.png');
+	background-image: url('https://sudo-tony69.github.io/img/c1zc8d7.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
@@ -3102,7 +3102,7 @@ a[href*="themoviedb.org"]::before {
 	display: inline-block;
 	width: 50px;
 	height: 25px;
-	background-image: url('../../../img/RlC69qy.png');
+	background-image: url('https://sudo-tony69.github.io/img/RlC69qy.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
@@ -3118,7 +3118,7 @@ a[href*="themoviedb.org/collection"]::before {
 	display: inline-block;
 	width: 50px;
 	height: 25px;
-	background-image: url('../../../img/HDodxf3.png');
+	background-image: url('https://sudo-tony69.github.io/img/HDodxf3.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
@@ -3130,7 +3130,7 @@ a[href*="thetvdb.com"]::before {
 	display: inline-block;
 	width: 50px;
 	height: 25px;
-	background-image: url('../../../img/Jp1VNqp.png');
+	background-image: url('https://sudo-tony69.github.io/img/Jp1VNqp.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
@@ -3146,7 +3146,7 @@ a[href*="tvmaze.com"]::before {
 	display: inline-block;
 	width: 50px;
 	height: 25px;
-	background-image: url('../../../img/sd2al6G.png');
+	background-image: url('https://sudo-tony69.github.io/img/sd2al6G.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
@@ -3162,7 +3162,7 @@ a[href*="anidb.net"]::before {
 	display: inline-block;
 	width: 50px;
 	height: 25px;
-	background-image: url('../../../img/7hpyHRn.png');
+	background-image: url('https://sudo-tony69.github.io/img/7hpyHRn.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-right: 5px;
