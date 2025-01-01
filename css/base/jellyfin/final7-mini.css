@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-color: rgba(120, 120, 120, 0.6) transparent;
+  scrollbar-width: thin;
+}
+
+html {
+  font-family: 'Sofia Sans', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: hidden; /* Prevent unintended scrolling */
+}
+
+/* Focus Styling for Tizen TV */
+*:focus {
+  outline: 2px solid #15afe6;
+  outline-offset: 2px;
+  transition: outline 0.2s ease;
+}
+
+/* Backgrounds and Containers */
+.backgroundContainer {
+  background-color: #080210;
+}
+
+.backgroundContainer.withBackdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pageTabContent.is-active::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://sudo-tony69.github.io/img/dGBenC7.jpg') center top no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+/* Buttons and Interactivity */
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #15afe6;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0d86b6;
+}
+
+.button:focus {
+  background-color: #0a5d8c;
+}
+
+/* Card Styles */
+.card {
+  margin: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries for TV Optimization */
+@media (min-width: 1920px) {
+  body {
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+  }
+}
+
+@media (orientation: landscape) {
+  .backgroundContainer {
+    height: 100vh;
+    background-attachment: fixed;
+  }
+}
+
+/* Simplified Progress Bar */
+progress {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: #333;
+}
+
+progress::-webkit-progress-value {
+  background-color: #15afe6;
+  border-radius: 4px;
+}
+
+progress::-moz-progress-bar {
+  background-color: #15afe6;
+}
+
+/* Navigation Styling */
+.navMenuOption {
+  padding: 15px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navMenuOption:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.navMenuOption:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Accessibility Enhancements */
+.textActionButton {
+  font-size: 1.2em;
+  color: #15afe6;
+  font-weight: bold;
+}
+
+.textActionButton:hover {
+  color: #0d86b6;
+}
+
+.textActionButton:focus {
+  color: #0a5d8c;
+}
+
+/* Footer Styling */
+.appfooter {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  text-align: center;
+}
