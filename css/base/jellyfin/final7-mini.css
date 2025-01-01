@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
+
+:root {--accent: 29, 185, 84;}
+
 /* General Reset */
 * {
   box-sizing: border-box;
@@ -164,3 +167,16 @@ progress::-moz-progress-bar {
   padding: 20px;
   text-align: center;
 }
+
+
+/* testing */
+.mdl-spinner__layer-1 {
+	border-color: rgba(var(--accent));
+}
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
+	background: rgba(var(--accent), 0.5);
+}
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
+	background: rgba(var(--accent));
+}
+/*  Testing */
