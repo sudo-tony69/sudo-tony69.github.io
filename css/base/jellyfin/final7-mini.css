@@ -169,7 +169,7 @@ progress::-moz-progress-bar {
 }
 
 
-/* testing */
+/* testing
 .mdl-spinner__layer-1 {
 	border-color: rgba(var(--accent));
 }
@@ -179,4 +179,4 @@ progress::-moz-progress-bar {
 .mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
 	background: rgba(var(--accent));
 }
-/*  Testing */
+ Testing */
